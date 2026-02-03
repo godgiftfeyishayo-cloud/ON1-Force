@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", system-ui, sans-serif;
+  color: white;
+  background-color: #000000;
+  
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame {
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.frame img {
+  width: 20px;
+  display: flex;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.frame .main_title {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  color: white;
+}
+
+#hero {
+  display: block;
+  width: 100%;
+  height: 300px;
+  height: auto;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.on_it {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  font-size: 40px;
+  text-transform: uppercase;
+  height: auto;
+  font-family: Orbitron;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+  text-align: center;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  justify-content: flex-start;
+}
+select {
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 200px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+}
+option {
+  font-size: 9px;
+  color: white;
+}
+
+.one {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.title {
+  text-transform: uppercase;
+}
+.description {
+  display: flex;
+  align-items: center;
+}
+
+.description p {
+  font-size: 10px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.content img {
+  width: 130px;
+  height: auto;
+  max-width: 250px;
+}
+button {
+  padding: 10px 20px;
+  background-color: white;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  font-size: 12px;
+  background-color: #eb5855;
+  text-transform: uppercase;
+  cursor: pointer;
+}
