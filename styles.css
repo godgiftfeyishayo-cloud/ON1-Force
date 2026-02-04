@@ -130,7 +130,6 @@ button {
   width: 200px;
   font-size: 12px;
   background-color: #eb5855;
-  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -288,8 +287,8 @@ button {
   letter-spacing: 0px;
 }
 
-.frame_content{
- display: flex;
+.frame_content {
+  display: flex;
   flex-direction: column;
   margin: 10px auto 0 auto;
   gap: 10px;
@@ -301,7 +300,7 @@ button {
   border-radius: 10px;
 }
 
-.frame_content img{
+.frame_content img {
   max-width: 700px;
   height: auto;
   border-radius: 4px;
@@ -320,4 +319,8 @@ button {
   margin-bottom: 10px;
   cursor: pointer;
 }
-
+/* 
+[ Heading / Text ]
+[ CTA Button ]
+[ NFT Grid (2 columns) ]
+[ Footer links ] */
