@@ -8,7 +8,6 @@ body {
   font-family: "Orbitron", system-ui, sans-serif;
   color: white;
   background-color: #000000;
-  
 }
 
 .header {
@@ -100,14 +99,12 @@ option {
   border-radius: 10px;
   margin: 10px;
   display: flex;
-  
 }
 
 .content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 
 .title {
@@ -138,5 +135,122 @@ button {
   font-size: 12px;
   background-color: #eb5855;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.two {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0 12px 10px 12px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.two img {
+  max-width: 400px;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.second_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 19px;
+}
+
+.second_content h3 {
+  font-weight: 700;
+  margin-left: 5px;
+  font-style: Bold;
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.second_content p {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 150%;
+  margin-top: 20px;
+  margin-left: 15px;
+  letter-spacing: 0px;
+}
+
+.two .second_button {
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  color: white;
+  margin-left: 15px;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  font-size: 12px;
+  background-color: #eb5855;
+  cursor: pointer;
+}
+
+.second_button:hover {
+  background-color: #ff7b78;
+}
+
+.second_button:active {
+  background-color: #e04e4b;
+}
+
+.third_content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  max-width: 900px;
+  width: 95%;
+  justify-content: center;
+  border: 2px solid #e04e4b;
+  border-radius: 10px;
+}
+
+.beside_sc img {
+  max-width: 900px;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.beside_sc h3 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 10px;
+  letter-spacing: 0px;
+}
+
+.beside_sc p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  letter-spacing: 0px;
+  word-spacing: 5px;
+} 
+
+.beside_sc .third_button {
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  font-size: 12px;
+  background-color: #eb5855;
   cursor: pointer;
 }
